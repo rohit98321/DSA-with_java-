@@ -2,7 +2,7 @@ package Arrays;
 
 public class maxEle {
     public static void main(String[] args) {
-        int[] arr={60,444,555,40};
+        int[] arr={60,444,44,40,444};
         int big=0;
         int secondbigger=0;
 
@@ -20,7 +20,7 @@ public class maxEle {
                 secondbigger=big;
                 big=arr[i];
             }
-            else if(arr[i]>secondbigger)
+            else if(arr[i]==secondbigger && arr[i]!=secondbigger)
             {
                 secondbigger=arr[i];
             }
