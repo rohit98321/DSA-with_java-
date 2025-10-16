@@ -14,7 +14,7 @@ public class reverse {
         
         for (int i = 0; i < (arr.length / 2); i++) {
 
-            if (i != end) {
+            if (i < end) {
                 
                 temp = arr[i];
                 arr[i] = arr[end];
